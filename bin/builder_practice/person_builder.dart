@@ -38,9 +38,9 @@ class PersonBuilder {
 
 void main() {
   // 빌더를 사용하여 Person 객체 생성
-  Person person = PersonBuilder("John", "Doe")
-      .age(30)
-      .address("123 Main Street")
+  Person person = PersonBuilder("Hayeong", "Song")
+      .age(25)
+      .address("changwon")
       .build();
 
   print(person);
